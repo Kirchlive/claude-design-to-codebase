@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "claude-design-to-codebase",
+  "description": "Turn Claude Design handoff bundles into real, framework-native code with token extraction and pixel verification.",
+  "owner": {
+    "name": "Kirchlive",
+    "url": "https://github.com/Kirchlive"
+  },
+  "plugins": [
+    {
+      "name": "claude-design-to-codebase",
+      "description": "Claude Design bundle -> DTCG tokens -> Mitosis JSX -> multi-framework components with pixel verification.",
+      "source": "./",
+      "category": "productivity"
+    }
+  ]
+}

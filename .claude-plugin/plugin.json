@@ -1,0 +1,13 @@
+{
+  "name": "claude-design-to-codebase",
+  "version": "0.1.0",
+  "description": "Claude Design bundle -> DTCG tokens -> Mitosis JSX -> multi-framework components with pixel verification",
+  "author": {
+    "name": "Kirchlive",
+    "url": "https://github.com/Kirchlive"
+  },
+  "homepage": "https://github.com/Kirchlive/claude-design-to-codebase",
+  "repository": "https://github.com/Kirchlive/claude-design-to-codebase",
+  "license": "MIT",
+  "keywords": ["claude-design", "design-tokens", "dtcg", "mitosis", "visual-regression", "design-to-code"]
+}
