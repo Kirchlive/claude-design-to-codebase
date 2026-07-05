@@ -2,8 +2,8 @@
 
 **Claude Design → your codebase, any framework.**
 
-A Claude Code skill/plugin that turns a Claude Design handoff bundle (or any
-HTML/CSS/JS prototype) into production components for React, Vue, Svelte,
+A Claude Code skill/plugin that turns a [Claude Design](https://claude.ai/design)
+handoff bundle (or any HTML/CSS/JS prototype) into production components for React, Vue, Svelte,
 Angular, Solid, Qwik, Web Components, Swift, React Native and more — with
 design-token extraction (W3C DTCG + Style Dictionary), deterministic framework
 compilation (Mitosis), and pixel-level visual verification against the bundle
@@ -120,6 +120,10 @@ python scripts/visual_diff.py ref.png shot.png -o diff.png --threshold 2.0
 
 ## Built on
 
+- [Claude Design](https://claude.ai/design) — Anthropic Labs tool that produces
+  the handoff bundles this plugin consumes
+  ([announcement](https://www.anthropic.com/news/claude-design-anthropic-labs),
+  [getting started](https://support.claude.com/en/articles/14604416-get-started-with-claude-design))
 - [Mitosis](https://github.com/BuilderIO/mitosis) — write components once,
   compile everywhere
 - [Style Dictionary](https://github.com/style-dictionary/style-dictionary) —
