@@ -112,8 +112,8 @@ python scripts/scaffold_mitosis.py design/ --targets react,vue,svelte
 python scripts/visual_diff.py ref.png shot.png -o diff.png --threshold 2.0
 ```
 
-![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
 > visual_diff.py qality gate example for automated comparison of results with Claude Designe original
+![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
 
 ## Requirements
 
