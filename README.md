@@ -1,6 +1,9 @@
 # claude-design-to-codebase
 
-**Claude Design → your codebase, any framework.**
+**Claude Design → your codebase → any framework**
+
+> A plugin stack to convert all exported Claude Design files HTML, CSS, JS and
+> screenshots into any framework, for direct integration to your repository.
 
 A Claude Code skill/plugin that turns a [Claude Design](https://claude.ai/design)
 handoff bundle (or any HTML/CSS/JS prototype) into production components for React, Vue, Svelte,
@@ -91,6 +94,10 @@ claude-design-to-codebase/
             ├── scaffold_mitosis.py     Mitosis project skeleton for chosen targets
             └── visual_diff.py          pixel diff + heatmap, CI-friendly exit codes
 ```
+
+![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/fq4IZKd.png)
+
+> visual_diff.py qality gate example for automated comparison of results with the original templates
 
 ### Scripts standalone
 
