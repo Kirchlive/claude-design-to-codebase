@@ -96,7 +96,7 @@ claude-design-to-codebase/
 ```
 
 ![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
-> visual_diff.py qality gate example for automated comparison of results with the original templates
+> visual_diff.py qality gate example for automated comparison of results with Claude Designe original
 
 ### Scripts standalone
 
