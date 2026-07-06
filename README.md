@@ -95,8 +95,7 @@ claude-design-to-codebase/
             └── visual_diff.py          pixel diff + heatmap, CI-friendly exit codes
 ```
 
-![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/fq4IZKd.png)
-
+![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
 > visual_diff.py qality gate example for automated comparison of results with the original templates
 
 ### Scripts standalone
