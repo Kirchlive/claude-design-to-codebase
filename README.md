@@ -95,9 +95,6 @@ claude-design-to-codebase/
             └── visual_diff.py          pixel diff + heatmap, CI-friendly exit codes
 ```
 
-![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
-> visual_diff.py qality gate example for automated comparison of results with Claude Designe original
-
 ### Scripts standalone
 
 The scripts also work outside the skill:
@@ -114,6 +111,9 @@ python scripts/scaffold_mitosis.py design/ --targets react,vue,svelte
 # gate a build on visual parity (exit 1 on failure)
 python scripts/visual_diff.py ref.png shot.png -o diff.png --threshold 2.0
 ```
+
+![Visual parity heatmap — drift becomes a number, not an opinion](https://i.imgur.com/7RlDkJT.png)
+> visual_diff.py qality gate example for automated comparison of results with Claude Designe original
 
 ## Requirements
 
